@@ -236,3 +236,54 @@ body {
       font-size: 23px;   
       color: rgb(32, 32, 32);
 }
+
+.depoimentos {
+    padding: 20px 100px;
+
+}
+
+.depoimentos-lista {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+.depoimento {
+    background: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .06);
+}
+
+.autor {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.autor img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.autor strong {
+    font-size: 20px;
+    font-weight: bold;
+    color: #484b53;
+    margin-left: 8px;
+}
+
+.autor span {
+    font-size: 18px;
+    font-weight: bold;
+    color: #7b7f8c;
+
+}
+
+blockquote {
+    font-size: 18px;
+    /* font-weight: bold; */
+    /* color: #7b7f8c; */
+}
