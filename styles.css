@@ -85,6 +85,7 @@ body {
     border-radius: 30px;
     color: black;
      background-color: aqua;
+     box-shadow: 0 30px 20px rgba(42, 42, 43, 0.20);
 }
 
 .imagem-1 img {
@@ -165,7 +166,7 @@ body {
     background-color: white;
     background-color: 0.4s ease;
     transition: transform 0.5s ease, box-shadow 0.5s ease, border-color 0.5s ease;
-    box-shadow: 0 10px 24px rgba(42, 42, 43, 0.08);
+    box-shadow: 0 30px 20px rgba(42, 42, 43, 0.20);
 }
 .icon-serv:hover{
     transform: translateY(-30px);
@@ -189,6 +190,49 @@ body {
       color: rgb(75, 74, 74);
 }
 
+.barra {
+    padding: 20px;
+    margin: 0 70px 30px 70px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0 30px 20px rgba(0, 0, 0, .20);
+}
 
+.info {
+   display: flex;
+   justify-content: space-between;
+   font-size: 20px;
+   font-weight: bold;
+}
+.info h4 {
+   margin-top: 0;
+}
 
+.progresso {
+    background: #808081;
+    border-radius: 10px;
+    
+}
 
+.progresso div {
+    height: 10px;
+    border-radius: 20px;
+    background: linear-gradient(90deg, #848cf5, #00f8cf);
+}
+
+.block-feedback{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+
+.block-feedback h2 {
+    font-size: 40px;
+     color: rgb(32, 32, 32);
+     margin-bottom:0;
+}
+
+.block-feedback h3 {
+      font-size: 23px;   
+      color: rgb(32, 32, 32);
+}
